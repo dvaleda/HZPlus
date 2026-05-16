@@ -1,12 +1,9 @@
-"""
-HŽPlus Jedinični testovi poslovnog sloja (BLL)
-Testira validaciju i poslovnu logiku servisa.
-"""
 import pytest
 from datetime import date, timedelta
 
 from tests.config import *
 
+# Jedinični testovi poslovnog sloja (BLL)
 
 class TestStanicaService:
 
