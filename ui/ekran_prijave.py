@@ -5,7 +5,7 @@ import hashlib
 
 from models.entities import Korisnik, TipKorisnika
 from bll.services import KorisnikService, ValidationError
-from ui.theme import (
+from ui.tema import (
     PLAVA_TAMNA, PLAVA_SREDNJA, PLAVA_SVIJETLA, BIJELA,
     POZADINA, TEKST_TAMNI, TEKST_SIVKAST, ZELENA, CRVENA,
     RUBA_SIVA, F_NASLOV, F_PODNASL, F_NORMALAN, F_MALI, F_IKONA,

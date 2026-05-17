@@ -3,7 +3,7 @@ from tkinter import messagebox
 from typing import Optional
 
 from models.entities import Korisnik
-from dal.database import Database
+from dal.database_manager import Database
 from dal.repositories import (
     StanicaRepository, VlakRepository, KorisnikRepository,
     PopustRepository, KartaRepository, SjedaloRepository
@@ -12,10 +12,10 @@ from bll.services import (
     StanicaService, VlakService, KorisnikService,
     PopustService, KartaService
 )
-from ui.theme import (
+from ui.tema import (
     primjeni_temu, POZADINA
 )
-from ui.prijava import EkranPrijave
+from ui.ekran_prijave import EkranPrijave
 from ui.korisnik_portal import KorisnikPortal
 from ui.admin_portal import AdminPortal
 

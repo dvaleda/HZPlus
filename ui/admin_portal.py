@@ -9,7 +9,7 @@ from bll.services import (
     VlakService, KorisnikService, PopustService,
     StanicaService, KartaService, ValidationError
 )
-from ui.theme import (
+from ui.tema import (
     PLAVA_TAMNA, PLAVA_SREDNJA, BIJELA, POZADINA,
     TEKST_TAMNI, TEKST_SIVKAST, ZELENA, CRVENA, RUBA_SIVA,
     F_NASLOV, F_PODNASL, F_NORMALAN, F_MALI,

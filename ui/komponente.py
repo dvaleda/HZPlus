@@ -1,7 +1,7 @@
 import tkinter as tk
 from tkinter import ttk
 from typing import Optional, Callable, List
-from ui.theme import (
+from ui.tema import (
     BIJELA, PLAVA_TAMNA, PLAVA_SREDNJA,
     ZELENA, CRVENA, TEKST_TAMNI, TEKST_SIVKAST,
     RUBA_SIVA, POZADINA, F_NORMALAN, F_MALI, F_PODNASL

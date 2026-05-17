@@ -3,7 +3,7 @@ from models.entities import (
     Stanica, Vlak, TipVlaka, Korisnik, TipKorisnika,
     Karta, StatusKarte, Popust, SjedaloVlaka
 )
-from dal.database import Database
+from dal.database_manager import Database
 
 
 class StanicaRepository:

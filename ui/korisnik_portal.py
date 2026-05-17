@@ -9,13 +9,13 @@ from models.entities import (
 from bll.services import (
     VlakService, KartaService, KorisnikService, ValidationError
 )
-from ui.theme import (
+from ui.tema import (
     PLAVA_TAMNA, PLAVA_SREDNJA, BIJELA, POZADINA,
     TEKST_TAMNI, TEKST_SIVKAST, ZELENA, CRVENA,
     F_PODNASL, F_NORMALAN, F_MALI
 )
 from ui.komponente import Tablica, InfoOkvir
-from ui.theme import kartica
+from ui.tema import kartica
 
 
 class KorisnikPortal(ttk.Frame):
